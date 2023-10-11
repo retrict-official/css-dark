@@ -1,0 +1,388 @@
+body.dark #cre-link .modal-body,
+body.dark #op-search,
+body.dark #picker,
+body.dark #post-hom .post-shar,
+body.dark #post-hom .post-shar #hd-post,
+body.dark #sect-comm,
+body.dark #sect-comm #colhom2,
+body.dark #sect-comm #cont-comm,
+body.dark #wind-comm_post .post-comm,
+body.dark #wind-comm_post .post-comm #hd-post,
+body.dark #wind-edit_post #post-hom #hd-post,
+body.dark #wind-edit_post .post-edit,
+body.dark #wind-share_post .post-shar,
+body.dark #wind-share_post .post-shar #hd-post,
+body.dark .cab-bod,
+body.dark .picmo__preview {
+  background: var(--menu) !important;
+}
+body.dark .cab-bod .input-group button:hover,
+body.dark .picmo__header input {
+  background: var(--button_hover) !important;
+  color: var(--plomo_claro) !important;
+}
+:root {
+  --retrict1: rgb(94, 23, 235);
+  --retrict2: rgb(140, 82, 255);
+  --retrict-fondo: rgb(94, 23, 235, 0.2);
+  --button_options: rgb(32, 34, 39);
+  --button_hover: rgb(48, 51, 59);
+  --border_fondo: rgb(50, 50, 93, 0.25) 0 13px 27px -5px,
+    rgb(0, 0, 0, 0.3) 0 8px 16px -8px;
+  --border-fondo1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --fondo_body: rgb(239, 242, 246);
+  --fondo_body2: rgb(241, 239, 255);
+  --coment_users: rgb(238, 240, 242);
+  --black: rgb(0, 0, 0);
+  --plomo_claro: rgb(133, 133, 133);
+  --plomo_claro2: rgb(230, 230, 230);
+  --white: rgb(255, 255, 255);
+  --white1: rgb(255, 255, 255, 0.1);
+  --white2: rgb(255, 255, 255, 0.2);
+  --white3: rgb(255, 255, 255, 0.3);
+  --white4: rgb(255, 255, 255, 0.4);
+  --white5: rgb(255, 255, 255, 0.5);
+  --white6: rgb(255, 255, 255, 0.6);
+  --white7: rgb(255, 255, 255, 0.7);
+  --white8: rgb(255, 255, 255, 0.8);
+  --white9: rgb(255, 255, 255, 0.9);
+  --enlinea: rgb(0, 151, 0);
+  --fondo_bodydark: rgb(24, 25, 26);
+  --menu: rgb(15, 15, 16);
+  --notificacion: rgba(255, 0, 0, 0.747);
+  --caja_elemento: rgb(20, 21, 25);
+}
+body.dark,
+body.dark main {
+  background: var(--fondo_bodydark);
+}
+body.dark #op-search .input-group button,
+body.dark #op-search .input-group input,
+body.dark .cab-bod .input-group button,
+body.dark .cab-bod .input-group input {
+  background: var(--button_hover);
+  color: var(--plomo_claro);
+}
+body.dark #op-search .input-group input,
+body.dark #pro-card form input,
+body.dark #pro-card form select,
+body.dark #pro-card form textarea,
+body.dark .cab-bod .input-group input {
+  background: var(--button_hover);
+  color: var(--white);
+}
+body.dark #op-search,
+body.dark .modal-header {
+  border: none !important;
+}
+body.dark .cab-bod .input-group:focus-within {
+  border: none;
+}
+body.dark .cab-bod #optionsList {
+  background: var(--button_options);
+  color: var(--plomo_claro2);
+}
+body.dark #op-search #optionsList1 h6,
+body.dark .cab-bod #optionsList h6 {
+  color: var(--plomo_claro2);
+  font-weight: 400 !important;
+}
+body.dark #op-search #optionsList1 p,
+body.dark .cab-bod #optionsList p {
+  color: var(--plomo_claro);
+}
+body.dark #op-search #optionsList1 i,
+body.dark .cab-bod #optionsList i {
+  background: var(--retrict2);
+  color: var(--white);
+}
+body.dark .cab-bod #opt-rtr li a,
+body.dark .cab-bod #opt-rtr li button {
+  color: var(--white8);
+  background: var(--button_options);
+  border: none;
+}
+body.dark .cab-bod #opt-rtr li a:hover,
+body.dark .cab-bod #opt-rtr li button:hover {
+  background: var(--button_hover);
+}
+body.dark .cab-bod #cont-not {
+  background: var(--menu);
+}
+body.dark .cab-bod #cont-not .card {
+  border-radius: 10px;
+  background: var(--menu);
+}
+body.dark .cab-bod #cont-not .card-body,
+body.dark .cab-bod #cont-not .card-footer,
+body.dark .cab-bod #cont-not .card-header {
+  color: var(--white5);
+  background: var(--menu) !important;
+}
+body.dark .cab-bod #cont-not .card-header {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+body.dark #hd-wind,
+body.dark #hd-wind button,
+body.dark .cab-bod #cont-not .card-header h6,
+body.dark .swal-title {
+  color: var(--retrict2) !important;
+}
+body.dark .cab-bod #cont-not .card-footer a {
+  background: var(--retrict-fondo);
+  color: var(--retrict2);
+}
+body.dark .cab-bod #cont-not .card-footer a:hover {
+  background: var(--retrict1);
+  color: var(--white);
+}
+body.dark #inf-more #more-data li,
+body.dark #pro-card #inf-foll .card-body h6,
+body.dark .cab-bod #cont-not .card-header span {
+  color: var(--white5);
+}
+body.dark #post-hom #hd-post h5,
+body.dark #post-hom #hd-post h6,
+body.dark #pro-card #cont-edit_profile #fllw,
+body.dark #pro-card #cont-edit_profile #gv-th,
+body.dark #pro-card #cont-edit_profile #open-edit,
+body.dark #pro-card h5,
+body.dark #sect-comm #btn-emojins,
+body.dark #set-users .card-header ul li button,
+body.dark #wind-share_post .post-shar,
+body.dark #wind-share_post h6,
+body.dark .cab-bod #cont-not .card-body #not-w {
+  color: var(--white8);
+}
+body.dark #pills-followed h5 a,
+body.dark #pills-followers h5 a,
+body.dark #post-hom #text-cont #hashtags,
+body.dark #post-hom #text-cont #mention,
+body.dark #post-hom #text-cont #url-post,
+body.dark #wind-comm_post #see-more a,
+body.dark .cab-bod #cont-not .card-body #not-w b {
+  color: var(--retrict2);
+}
+body.dark .cab-bod #cont-not .card-footer {
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+body.dark .cab-bod #opt-rtr li #noti-user span {
+  border: 1px solid var(--menu);
+  background-color: var(--notificacion);
+}
+body.dark #menu-post,
+body.dark #menu_user,
+body.dark #post-hom #menu-shar_post {
+  background: var(--menu) !important;
+  color: var(--white8);
+  border: 1px solid var(--button_hover);
+}
+body.dark #menu-post li a:hover,
+body.dark #menu_user li a:hover,
+body.dark #post-hom #hd-post #inf-foll p,
+body.dark #pro-card #cont-edit_profile #fllw:hover,
+body.dark #pro-card #cont-edit_profile #gv-th:hover,
+body.dark #pro-card #cont-edit_profile #open-edit:hover,
+body.dark #pro-card #inf-foll .card-body p {
+  color: var(--white);
+}
+body.dark #menu-post li a,
+body.dark #menu_user li a,
+body.dark #post-hom #menu-shar_post li a {
+  background: var(--menu) !important;
+  color: var(--white8);
+}
+body.dark #menu-post hr,
+body.dark #menu_user hr {
+  background-color: var(--white);
+}
+body.dark #cont-post,
+body.dark #cont-post #contex-opt,
+body.dark #cont-post textarea,
+body.dark #inf-more,
+body.dark #inf-more #more-data li,
+body.dark #inf-more #more-data li b,
+body.dark #inf-more .card-body,
+body.dark #inf-more .card-header,
+body.dark #wind-edit_post #post-hom button,
+body.dark #wind-share_post textarea {
+  background: var(--caja_elemento);
+  color: var(--white8);
+}
+body.dark #cont-post #btn-emojins,
+body.dark #post-op,
+body.dark #pro-card #cont-edit_profile #opt-edit,
+body.dark #wind-share_post #btn-emojins {
+  background: var(--button_options);
+  color: var(--white8);
+}
+body.dark #post-op:hover {
+  background: var(--button_hover) !important;
+  color: var(--white) !important;
+}
+body.dark #ct-comm #hd-comm,
+body.dark #post-hom #ft-post,
+body.dark #post-hom #ft-post #btn-post_comm,
+body.dark #post-hom #ft-post #btn-post_lik,
+body.dark #post-hom #ft-post #btn-post_sha,
+body.dark #sect-comm #btn-emojins,
+body.dark #sect-comm textarea,
+body.dark #set-users,
+body.dark #set-users .card-header {
+  background: var(--caja_elemento) !important;
+}
+body.dark .picmo__categoryName,
+body.dark .picmo__content,
+body.dark .picmo__header,
+body.dark .picmo__picker {
+  background: var(--menu) !important;
+  color: var(--white);
+}
+body.dark .picmo__preview,
+body.dark .picmo__previewName {
+  color: var(--white) !important;
+}
+body.dark #post-hom,
+body.dark #post-hom #hd-post {
+  background: var(--caja_elemento) !important;
+  color: var(--white8);
+}
+body.dark #post-hom #hd-post #inf-foll h6 {
+  color: var(--white6);
+}
+body.dark #post-hom #inf-foll .card-body {
+  background-color: var(--caja_elemento) !important;
+  color: var(--white8);
+}
+body.dark #backpost li a,
+body.dark #ct-comm #bd-comm h6,
+body.dark #ct-comm #hd-comm,
+body.dark #ct-comm #hd-comm span,
+body.dark #mess-alert,
+body.dark #post-hom #ft-post #btn-post_comm,
+body.dark #post-hom #ft-post #btn-post_lik,
+body.dark #post-hom #ft-post #btn-post_sha {
+  color: var(--white8) !important;
+}
+body.dark #wind-comm_post #cont-comm,
+body.dark .modal-content {
+  background-color: var(--caja_elemento);
+}
+body.dark #wind-comm_post #cont-comm #btn-emojins,
+body.dark #wind-comm_post #cont-comm textarea {
+  background-color: var(--button_hover);
+  color: var(--white8);
+}
+body.dark .modal-body::-webkit-scrollbar-thumb {
+  background-color: var(--retrict2);
+  border-radius: 20px;
+  border: 2px solid var(--caja_elemento);
+}
+body.dark::-webkit-scrollbar-thumb {
+  background-color: var(--retrict2);
+  border-radius: 20px;
+  border: 2px solid var(--caja_elemento);
+}
+body.dark #pills-followed #bd-comm,
+body.dark #pills-followed #list-fll,
+body.dark #pills-followers #bd-comm,
+body.dark #pills-followers #list-fll,
+body.dark #wind-edit_post textarea {
+  background: var(--menu);
+  color: var(--white8);
+}
+body.dark #wind-edit_post #sect-com button {
+  border: none;
+}
+body.dark #wind-share_post #btn_share {
+  background: var(--retrict2) !important;
+}
+body.dark #wind-share_post #btn_share:hover {
+  background: var(--retrict1) !important;
+}
+body.dark #cre-link .modal-body #cont-link {
+  background: var(--button_hover) !important;
+}
+body.dark #cre-link .modal-body #cont-link input {
+  background: var(--button_hover) !important;
+  color: var(--white8);
+}
+body.dark #cre-link .modal-body #cont-link button {
+  background: var(--retrict2) !important;
+  color: var(--white8);
+  border: 3px solid var(--button_hover);
+}
+body.dark #cre-link .modal-body #cont-link button:hover {
+  background: var(--retrict1) !important;
+  color: var(--white8);
+  border: 3px solid var(--button_hover);
+}
+body.dark #liveToast {
+  background-color: var(--menu);
+  color: var(--white8);
+}
+body.dark #ct-comm,
+body.dark #pro-card,
+body.dark #pro-card #inf-foll .card-body {
+  background: var(--caja_elemento);
+}
+body.dark #mess-alert,
+body.dark
+  #pro-card
+  .form-floating
+  > .form-control:not(:placeholder-shown)
+  ~ label::after,
+body.dark
+  #pro-card
+  .form-floating
+  > .form-select:not(:placeholder-shown)
+  ~ label::after {
+  background-color: var(--button_hover);
+}
+body.dark .swal-button {
+  background-color: var(--retrict1) !important;
+}
+body.dark .swal-cancel-button {
+  background-color: var(--retrict2) !important;
+}
+body.dark .custom-text {
+  color: var(--plomo_claro) !important;
+}
+body.dark .swal2-popup {
+  letter-spacing: 1px;
+  background-color: var(--caja_elemento) !important;
+}
+body.dark #pro-card #cont-edit_profile #opt-edit:hover {
+  background: var(--button_hover);
+  color: var(--white8);
+}
+body.dark #cont-profile #img-profile {
+  border: 3px solid var(--caja_elemento);
+}
+body.dark #pro-card form i,
+body.dark #pro-card form label {
+  color: var(--white5) !important;
+}
+body.dark #inf-prf .arrow-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  font-size: 23px;
+}
+body.dark #inf-prf .arrow-icon i {
+  display: block;
+  margin-left: -32px;
+}
+body.dark #inf-prf input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  margin-right: 2px;
+  opacity: 0.9;
+  filter: invert(0.9);
+}
